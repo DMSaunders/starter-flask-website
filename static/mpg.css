@@ -1,6 +1,7 @@
 body {
     background-color: #cccccc;
-}
+    /*background-image: url('https://cultofthepartyparrot.com/parrots/hd/parrot.gif');*/
+       }
 
 img {
     height: 150px;
@@ -13,15 +14,15 @@ li {
 
 h1 {
     font-family: 'Gugi', cursive;
-    color: red;
-    background-color: yellow;
-    border: 3px dashed green;
+    color: rgb(122, 31, 31);
+    background-color: rgb(255, 136, 0);
+    border: 3px dashed rgb(236, 197, 22);
     margin: 25px;
     padding: 25px;
 }
 
 #controls {
-    background-color: yellow;
+    background-color: rgb(255, 136, 0);
     border: 3px dashed green;
     margin: 25px;
     padding: 25px;
@@ -33,14 +34,14 @@ label {
 }
 
 input {
-    background-color: tomato;
-    border: 1px solid red;
+    background-color: rgb(247, 216, 133);
+    border: 1px solid rgb(235, 226, 226);
     width: 200px;
     ;
 }
 
 #inference-button {
-    background-color: yellow;
+    background-color: rgb(255, 136, 0);
     border: 3px dashed green;
     margin: 10px;
     padding: 10px;
