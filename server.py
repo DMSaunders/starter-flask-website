@@ -2,11 +2,11 @@ from flask import Flask,render_template, request,jsonify,Response
 import pickle
 import pandas as pd
 
-app = Flask(__name__)
+app = Flask(__name__)   #init
 
-@app.route('/', methods = ['GET'])
+@app.route('/', methods = ['GET'])  # this is the URL on the webbrowser
 def home():
-    return '<p> Hello World </p>'
+    return render_template('home.html') #'<p> Hello World </p>'  #content
 
 
 if __name__ == '__main__':
