@@ -4,7 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)   #init
 
-@app.route('/', methods = ['GET'])  # this is the URL on the webbrowser
+@app.route('/', methods = ['GET'])  # home page. this is the URL on the webbrowser
 def home():
     return render_template('home.html') #'<p> Hello World </p>'  #content
 

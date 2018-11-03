@@ -36,7 +36,7 @@
             </div>
         </div>
 
-        <!-- inference button -->
+        <!-- creates inference button -->
         <div id='inference-button'>
             <div>
                 <button id='inference'> Predict MPG </button>
@@ -46,11 +46,18 @@
             </div>
         </div>
 
-        <!--button for scatterplot-->
-        <button id='scatter-plot'> Scatter plot </button>
+        <!--creates scatterplot button -->
+        <button id='scatter-plot'> Scatter plot </button> <!--use this id to refer to this-->
         <div id='graph1'> </div>
 
+        <!--creates histogram button -->
+        <button id='histogram-plot'> Histogram plot </button> <!--use this id to refer to this-->
+        <div id='graph2'> </div>
+
+        <!--our scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.35.2/plotly.min.js"></script>
+        <!-- this contains plotly ^-->
         <script src='static/mpg.js'></script>
     
 
